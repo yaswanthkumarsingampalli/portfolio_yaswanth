@@ -35,7 +35,7 @@ function ParticleBackground() {
 
 const Hero = () => {
   const [text, setText] = useState('');
-  const fullText = 'Yaswanth Kumar';
+  const fullText = 'Yaswanth Kumar Singampalli';
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 

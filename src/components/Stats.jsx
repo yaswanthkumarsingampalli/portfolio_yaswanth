@@ -48,7 +48,7 @@ const Stats = () => {
     { end: 4, label: "Years Experience", delay: 0.1 },
     { end: 30, label: "Cost Reduction", delay: 0.2 },
     { end: 40, label: "Reliability Improvement", delay: 0.3 },
-    { end: 15, label: "Projects Delivered", delay: 0.4 }
+    { end: 7, label: "Projects Delivered", delay: 0.4 }
   ];
 
   return (
