@@ -1,4 +1,4 @@
-# Yaswanth Kumar Singampalli - Portfolio (React)
+# Yaswanth Kumar Singampalli - Portfolio 
 
 This is the personal portfolio website for Yaswanth Kumar Singampalli, a Microsoft-Certified Senior Data Engineer, built with React.js and Tailwind CSS.
 
