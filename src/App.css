@@ -1,0 +1,31 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optional: Add smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure sections have padding to account for fixed navbar */
+section {
+  padding-top: 80px; /* Adjust based on navbar height */
+  padding-bottom: 80px;
+}
+
+/* Tailwind-like utility classes if not using Tailwind CSS directly */
+/* You can remove these if you are using Tailwind via PostCSS */
+.bg-slate-50 { background-color: #f8fafc; }
+.dark .bg-slate-900 { background-color: #0f172a; }
+.text-slate-900 { color: #0f172a; }
+.dark .text-slate-100 { color: #f1f5f9; }
+.transition-colors { transition: background-color 0.3s ease, color 0.3s ease; }
+.duration-300 { transition-duration: 300ms; }
+
+/* Add any custom styles here */
