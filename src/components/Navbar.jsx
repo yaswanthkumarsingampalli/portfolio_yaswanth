@@ -35,7 +35,8 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               )}
             </button>
             <motion.a
-              href="/Yaswanth_Kumar_Singampalli_DE.pdf"
+              //href="/Yaswanth_Kumar_Singampalli_DE.pdf"
+              href={`${process.env.PUBLIC_URL}/Yaswanth_Kumar_Singampalli_DE.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-block bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
