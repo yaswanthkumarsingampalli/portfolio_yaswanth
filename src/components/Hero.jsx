@@ -96,7 +96,8 @@ const Hero = () => {
                 Get In Touch
               </motion.a>
               <motion.a
-                href="/Yaswanth_Kumar_Singampalli_DE.pdf"
+                //href="/Yaswanth_Kumar_Singampalli_DE.pdf"
+                href={`${process.env.PUBLIC_URL}/Yaswanth_Kumar_Singampalli_DE.pdf`}
                 download
                 className="flex items-center gap-2 text-slate-700 dark:text-slate-300 hover:text-primary transition-colors"
                 whileHover={{ scale: 1.05 }}
