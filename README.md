@@ -63,7 +63,7 @@ This project is configured for deployment to GitHub Pages. Follow these steps:
           "name": "portfolio-react",
           "version": "0.1.0",
           "private": true,
-          "homepage": "https://yaswanthkumarsingampalli.github.io/portfolio_yaswanth/", // Add this line
+          "homepage": "https://<github_profile_name>.github.io/<repo_name>/", // Add this line
           ...
         }
         ```
